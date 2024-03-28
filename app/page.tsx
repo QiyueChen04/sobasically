@@ -1,11 +1,16 @@
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import ThreeDCard from '../components/threedcard'
 
 function Home() {
   return (
     <div>
       <Navbar></Navbar>
-      <main><h1>Hello world</h1></main>
+      <div className='grid grid-cols-1 justfy-center'>
+        <div className="artboard artboard-horizontal phone-5 flex place-content-center self-center">
+          {/* <ThreeDCard></ThreeDCard>  */}
+        </div>
+      </div>
       <Footer></Footer>
     </div>
   );
