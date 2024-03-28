@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from 'next/link'
 import { SparklesCore } from "../../components/ui/sparkles";
 
 function SparklesPreview() {
@@ -16,9 +17,11 @@ function SparklesPreview() {
           particleColor="#FFFFFF"
         />
       </div>
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
-        SoBasically
-      </h1>
+      <Link href="../">
+        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+          SoBasically
+        </h1>
+      </Link>
       
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
