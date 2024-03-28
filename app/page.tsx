@@ -10,8 +10,16 @@ function Home() {
       <Navbar/>
 
       <div className='grid grid-cols-1 justify-items-center'>
-        <div className="grid">
+        
+        <div >
           <ThreeDCard/>
+        </div>
+
+        <div className="w-[40rem] h-10 relative">
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-4/5 blur-sm" />
+          <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-4/5" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[8px] w-1/4 blur-sm" />
+          <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-5px w-1/4" />
         </div>
 
         <div className="grid grid-cols-3 w-3/5 justify-between">
@@ -22,6 +30,7 @@ function Home() {
             <InfoCard/>
           </div>
         </div>
+
       </div>
 
       <Footer/>
