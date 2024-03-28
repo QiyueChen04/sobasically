@@ -1,7 +1,12 @@
-import Image from "next/image";
+import Navbar from '../components/navbar'
 
-export default function Home() {
+function Home() {
   return (
-    <main><h1>Hello world</h1></main>
+    <div>
+      <Navbar></Navbar>
+      <main><h1>Hello world</h1></main>
+    </div>
   );
 }
+
+export default Home
