@@ -1,6 +1,7 @@
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import ThreeDCard from '../components/threedcard'
+import ArticleList from '../components/articlelist'
 
 function Home() {
   return (
@@ -13,8 +14,8 @@ function Home() {
         <ThreeDCard></ThreeDCard>
       </div>
 
-      <div>
-        
+      <div className="grid place-items-center">
+        <ArticleList></ArticleList>
       </div>
 
       <div>
