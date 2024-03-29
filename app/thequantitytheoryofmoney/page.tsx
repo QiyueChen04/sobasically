@@ -39,6 +39,11 @@ function pages() {
           </p>
         }/>
 
+        <Par paragraph={
+          <p>
+            Secondly, if we assume the velocity of money and the real GDP as constants, this means the relationship between M, money, and P, prices, is not only direct but also proportional. So, yes, assuming a constant velocity of money and real GDP, a doubling in the amount of money will double the economy’s price level. This may seem like a trivial point at first, but it highlights an important macroeconomic concept that countries like Zimbabwe, Hungary, and Weimar Germany failed to understand: if the government keeps producing more and more money, that doesn’t mean increased production, just higher prices.           
+          </p>
+        }/>
 
       </div>
 

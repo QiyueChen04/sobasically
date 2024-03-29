@@ -6,7 +6,7 @@ function heading({
     heading:string;
 }) {
   return (
-    <div className='text-whilte text-2xl font-bold pt-8 pb-2.5'>
+    <div className='text-whilte text-2xl font-bold pt-6'>
         {heading}
     </div>
   )

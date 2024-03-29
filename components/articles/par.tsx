@@ -6,7 +6,7 @@ function par({
   paragraph: JSX.Element;
 }) {
   return (
-    <div className='place-self-center text-lg'>
+    <div className='place-self-center text-lg py-3'>
       {paragraph}
     </div>
   )
