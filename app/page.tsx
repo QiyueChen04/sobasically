@@ -4,6 +4,8 @@ import ThreeDCard from '../components/threedcard'
 import ArticleList from '../components/articlelist'
 import InfoCard from '../components/infocard'
 
+import Link from 'next/link'
+
 function Home() {
   return (
     <div>
@@ -11,8 +13,10 @@ function Home() {
 
       <div className='grid grid-cols-1 justify-items-center'>
         
-        <div >
-          <ThreeDCard/>
+        <div>
+          <Link href={'../thequantitytheoryofmoney'}>
+            <ThreeDCard/>
+          </Link>
         </div>
 
         <div className="w-[40rem] h-10 relative">
