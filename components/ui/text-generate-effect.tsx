@@ -5,10 +5,12 @@ import { cn } from "@/utils/cn";
 
 export const TextGenerateEffect = ({
   words,
-  className,
+  size,
+  delay,
 }: {
   words: string;
-  className?: string;
+  size: string;
+  delay: number;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -19,8 +21,8 @@ export const TextGenerateEffect = ({
         opacity: 1,
       },
       {
-        duration: 4,
-        delay: stagger(0.5),
+        duration: 2,
+        delay: stagger(delay),
       }
     );
   }, [scope.current]);
@@ -43,9 +45,9 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <div className={cn("font-bold", className)}>
+    <div className={cn("font-bold", size)}>
       <div className="mt-4">
-        <div className="dark:text-white text-black text-6xl leading-snug tracking-wide">
+        <div className={`dark:text-white text-black leading-snug tracking-wide ${size} `}>
           {renderWords()}
         </div>
       </div>

@@ -1,12 +1,16 @@
 "use client";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
-interface MessageProps {
+export function TextGenerateEffectDemo({
+  message, 
+  size,
+  delay,
+}: {
   message: string;
-}
-
-export function TextGenerateEffectDemo({message}: MessageProps) {
-  return <TextGenerateEffect words={message} />;
+  size: string;
+  delay: number;
+}) {
+  return <TextGenerateEffect words={message} size={size} delay={0.1}/>;
 }
 
 export default TextGenerateEffectDemo;
