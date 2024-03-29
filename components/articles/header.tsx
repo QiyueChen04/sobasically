@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../components/logo'
+import Divider from '../../components/divider'
 
 function header({
     title,
@@ -37,6 +38,8 @@ function header({
         </div>
 
       </div>
+
+      <Divider/>
     </div>
   )
 }
