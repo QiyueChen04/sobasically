@@ -9,7 +9,7 @@ function pages() {
       
       <Navbar/>
 
-      <div>
+      <div className='text-center'>
         The Quantity Theory of Money
       </div>
 
