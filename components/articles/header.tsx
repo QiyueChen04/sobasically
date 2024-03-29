@@ -39,7 +39,9 @@ function header({
 
       </div>
 
-      <Divider/>
+      <div className='pt-6'>
+        <Divider/>
+      </div>
     </div>
   )
 }
