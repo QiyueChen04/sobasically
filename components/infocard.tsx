@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../components/logo'
 
 function infocard() {
   return (
@@ -6,7 +7,7 @@ function infocard() {
       <div className="card w-90 bg-primary text-primary-content rounded-xl">
         <div className="card-body">
           <div className='w-10'>
-            <img src={'/logo.png'} alt='SoBasically Logo'/>
+            <Logo/>
           </div>
           <h2 className="card-title">SoBasically</h2>
           <p className='text-xs'>Kickoff your Saturdays with a brief and unbiased economics article where we explore everything related to the dismal science</p>
