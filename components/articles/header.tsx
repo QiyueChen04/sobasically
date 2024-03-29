@@ -13,21 +13,21 @@ function header({
 }) {
   return (
     <div>
-      <div className='text-white text-4xl font-bold pb-2'>
+      <div className='place-self-start text-white text-4xl font-bold pb-2'>
         {title}
       </div>
 
-      <div className='text-xl'>
+      <div className='place-self-start text-xl'>
         {subtitle}
       </div>
 
       <div className='grid grid-cols-3 w-1/5 pt-2'>
 
-        <div className='col-span-1 w-10'>
+        <div className='place-self-start col-span-1 w-10'>
           <Logo/>
         </div>
 
-        <div className='col-span-2'>
+        <div className='place-self-start col-span-2'>
           <div className='text-white text-sm font-light'>
             SoBasically
           </div>
