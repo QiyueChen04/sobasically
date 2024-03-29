@@ -2,24 +2,32 @@ import React from 'react'
 
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
-import TextGenerator from '../../components/textgenerator'
 
 function page() {
   return (
-    <div>
+    <div className='grid grid-cols-1 align-items-center gap-20'>
       <Navbar/>
-      <div className='grid grid-cols-1 justify-items-center'>
 
-        <div className='grid grid-cols-1 w-3/5 justify-items-center text-center'>
-          <TextGenerator message='Coming Soon'size='text-6xl' delay={0.5}/>
+      <div className='grid grid-cols-1 w-3/5 h-full place-self-center py-20'>
+
+        <img src={'/logo.png'} alt='SoBasically Logo' className='place-self-center py-1'/>
+
+        <div className='text-white text-6xl font-bold place-self-center py-2'>
+          Coming Soon!
         </div>
-
-        <div className='grid grid-cols-1 w-3/5 justify-items-center text-center'>
-          <TextGenerator message='While our custom website is being completed, feel free to read our articles on Substack.'size='text-xl' delay={1}/>
+        
+        <div className='text-white text-xl place-self-center text-center py-2'>
+          Meanwhile, you can take a look at 
+          <a href={'../thequantitytheoryofmoney'} className="underline text-blue-400"> our latest article </a>
+          on the quantum theory of money or read more of our articles on 
+          <a href={'https://sobasically.substack.com/'} className="underline text-blue-400"> Substack </a>
+          .
         </div>
 
       </div>
+
       <Footer/>
+
     </div>
   )
 }
