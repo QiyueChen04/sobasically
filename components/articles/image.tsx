@@ -8,7 +8,7 @@ function image({
 }) {
   return (
     <div className='place-self-center py-3'>
-      <Image src={img} alt="article image" height="1000" width="300"></Image>
+      <Image src={img} alt="article image" height="1000" width="400"></Image>
     </div>
   )
 }
