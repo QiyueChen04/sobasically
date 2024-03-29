@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Logo from '../components/logo'
 
 import SqSubButton from './sqsubbutton'
 
@@ -51,7 +52,7 @@ function footer() {
       <footer className="footer items-center p-4 bg-neutral text-neutral-content">
         <aside className="items-center grid-flow-col">
           <div className='w-10'>
-            <img src={'/logo.png'} alt='SoBasically Logo'/>
+            <Logo/>
           </div>
           <p>Copyright © 2024 - All right reserved</p>
         </aside> 
