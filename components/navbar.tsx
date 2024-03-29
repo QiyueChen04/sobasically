@@ -31,7 +31,7 @@ function navbar() {
             <img src={'/logo.png'} alt='SoBasically Logo'/>
           </Link>
         </div> */}
-        <Link href={"../landingpage"}>
+        <Link href={".."}>
             <p className="btn btn-ghost text-xl">SoBasically</p>
         </Link>
       </div>
