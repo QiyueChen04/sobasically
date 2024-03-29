@@ -45,6 +45,63 @@ function pages() {
           </p>
         }/>
 
+        <Par paragraph={
+          <p>
+            Going back to the equation of exchange, here’s an example to make it more intuitive: let’s assume the money supply totals $100, the real GDP is $1000, and the price level is 3 (this is usually measured through an index, i.e., the Consumer Price Index).
+          </p>
+        }/>
+
+        <Img img='/qtm_3eqn.png'></Img>
+
+
+        <Par paragraph={
+          <p>
+            This basically means that, given the variables above, your average dollar is going to "circulate" (trade hands) 30 times per year. Because GDP is simply the value of all goods and services produced in a certain time frame, this means that those 30 exchanges had a total nominal value of $3000. To illustrate this idea further, let’s set up an even simpler situation: the money supply is $1, the GDP is $1000, and the price level is 1. The velocity of money in this case would be 1000, as the money supply of $1 would have to be used to purchase new things 1000 times to create a GDP of $1000. 
+          </p>
+        }/>
+
+
+        <Heading heading="An alternative approach"></Heading>
+
+        <Par paragraph={
+          <p>
+            The equation of exchange is, as you may have guessed, a rather simplistic framework for analyzing what is an infinitely complicated correlation. And as economics has gradually grown into a statistical science over the years, researchers have refined the mathematics behind the quantity theory of money so that it can be more useful for understanding real-world economic phenomena. One such revision is like so:
+          </p>
+        }/>
+
+        <Img img='/qtm_M*Vt.png'></Img>
+
+        <Par paragraph={
+          <p>
+            Let’s break this down. 
+          </p>
+        }/>
+
+        <Par paragraph={
+          <ol className='list-decimal list-inside'>
+            <li><strong>Money supply (M)</strong>: the total quantity of money in the economy</li>
+            <li><strong>Velocity of money (V_T)</strong>: the rate at which money is used to purchase new goods and services within a given time period, T</li>
+            <li><strong>Summation operator</strong>: adds up the product of the price level (p_i) and the quantity of goods and services produced (q_i) for each time period “i” from 1 to n. The product of these values yields the nominal GDP, and with the sum operator, we can get the nominal GDP across different time periods (hence the “i”)</li>
+            <li><strong>Transpose operator (T)</strong>: converts row vectors into column vectors and vice versa like so:</li>
+          </ol>
+        }/>
+        
+        <Img img='/qtm_transpose.png'></Img>
+
+        <Par paragraph={
+          <p>
+            In this context, we’re dealing with 2 vectors: p (representing the price levels for each time period) and q (representing the quantities of goods and services produced for each time period). As previously stated, for any given time period, we need to take the product of the price level and the quantities of goods and services; to perform this operation across entire vectors, we must take their dot product. To be clear, because we’re dealing with simple row vectors, the transpose operator isn’t a necessary step; it simply adds assurance that the data works in both row and column format. Consider the following example:
+          </p>
+        }/>
+
+        <Par paragraph={
+          <p>
+            Price level vector (p):
+          </p>
+        }/>
+
+
+
       </div>
 
 
