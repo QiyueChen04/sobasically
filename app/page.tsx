@@ -20,9 +20,9 @@ function Home() {
           </Link>
         </div>
 
-        <div>
-          <Divider/>
-        </div>
+ 
+        <Divider/>
+
 
         <div className="grid grid-cols-3 w-3/5 justify-between">
           <div className='col-span-2 px-1'>
