@@ -3,10 +3,10 @@ import React from 'react'
 function par({
   paragraph,
 }: {
-  paragraph: string;
+  paragraph: JSX.Element;
 }) {
   return (
-    <div className='place-self-center text-lg bg-primary'>
+    <div className='place-self-center text-lg'>
       {paragraph}
     </div>
   )
