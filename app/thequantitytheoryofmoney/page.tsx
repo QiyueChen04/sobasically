@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
 import Header from '../../components/articles/header'
+import Divider from '../../components/divider'
 
 function pages() {
   return (
@@ -10,9 +11,14 @@ function pages() {
       
       <Navbar/>
 
-      <div className='grid grid-cols-1 w-3/5 h-full place-self-center pt-7'>
+      <div className='grid grid-cols-1 w-3/5 h-full place-self-center py-7'>
         <Header title='The Quantity Theory of Money' subtitle='Examining the money supply and inflation' date='Sep 02, 2023'/>
+
+        <div className='place-self-center'>
+          <Divider/>
+        </div>
       </div>
+
 
       <Footer/>
 
