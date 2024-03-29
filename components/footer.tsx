@@ -16,17 +16,17 @@ function footer() {
         </nav>  */}
         <nav>
           <h6 className="footer-title">SoBasically</h6> 
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
+          <Link href={"../comingsoon"}>Archieve</Link>
+          <Link href={"../comingsoon"}>Contact</Link>
           {/* <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a> */}
         </nav> 
 
         <nav>
           <h6 className="footer-title">Legal</h6> 
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <Link href={"../comingsoon"}>Terms of use</Link>
+          <Link href={"../comingsoon"}>Privacy policy</Link>
+          <Link href={"../comingsoon"}>Cookie policy</Link>
         </nav>
 
         <form>
