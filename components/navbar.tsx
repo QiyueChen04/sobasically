@@ -16,7 +16,7 @@ function navbar() {
               <Link href={".."}>Homepage</Link>
             </li>
             <li>
-              <Link href={"../comingsoon"}>Archive</Link>
+              <Link href={"../archive"}>Archive</Link>
             </li>
             <li>
               <Link href={"../aboutus"}>About</Link>
