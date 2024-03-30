@@ -1,4 +1,4 @@
-# [SoBasically](https://sobasically.vercel.app/landingpage)
+# [SoBasically](https://sobasically.vercel.app/)
 A website to our economics newsletter.
 
 <p align="center">
