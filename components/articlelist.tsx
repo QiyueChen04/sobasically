@@ -61,7 +61,7 @@ function articlelist() {
       {list.map((article, index) => (
         <Link href={'../comingsoon'}>
           <div className="card card-side py-5 items-center rounded-xl hover:bg-primary hover:bg-opacity-50">
-            <img src={article.image} alt="article image" className='place-self-center rounded-xl w-60 h-50 object-cover'/>
+            <img src={article.image} alt="article image" className='rounded-xl w-60 h-50 object-cover'/>
             <div className="card-body">
               <h2 className="card-title text-white">{article.title}</h2>
               <p>{article.subtitle}</p>
