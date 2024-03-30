@@ -200,7 +200,7 @@ function pages() {
 
         <Par paragraph={
           <p>
-            A key facet of a country’s immigration policy is preparing the labor market for an influx of job seekers. The task is to figure out how to provide employment to immigrants so that they can not only gradually assimilate into the country but also best utilize their talents and skills. But what factors go into such an undertaking? This week’s <a href='https://static1.squarespace.com/static/5c870f5194d71a8c5be53ae4/t/64dcd493bee0d46467600897/1692193957435/230816_arellano-bover_san.pdf' className='underline visited:text-purple-600 text-blue-400'>paper</a> may have an answer. 
+            A key facet of a country’s immigration policy is preparing the labor market for an influx of job seekers. The task is to figure out how to provide employment to immigrants so that they can not only gradually assimilate into the country but also best utilize their talents and skills. But what factors go into such an undertaking? This week’s <a href='https://static1.squarespace.com/static/5c870f5194d71a8c5be53ae4/t/64dcd493bee0d46467600897/1692193957435/230816_arellano-bover_san.pdf' className='underline text-blue-400 hover:text-blue-500'>paper</a> may have an answer. 
           </p>
         }/>
 

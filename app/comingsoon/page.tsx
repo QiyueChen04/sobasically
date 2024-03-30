@@ -17,11 +17,8 @@ function page() {
         </div>
         
         <div className='text-white text-xl place-self-center text-center py-2'>
-          Meanwhile, you can take a look at 
-          <a href={'../thequantitytheoryofmoney'} className="underline text-blue-400"> our latest article </a>
-          on the quantum theory of money or read more of our articles on 
-          <a href={'https://sobasically.substack.com/'} className="underline text-blue-400"> Substack </a>
-          .
+          Meanwhile, you can take a look at <a href={'../thequantitytheoryofmoney'} className="underline text-blue-400 hover:text-blue-500">our latest article</a> on the quantum 
+          theory of money or read more of our articles on <a href={'https://sobasically.substack.com/'} className="underline text-blue-400 hover:text-blue-500">Substack</a>.
         </div>
 
       </div>
