@@ -16,10 +16,10 @@ function navbar() {
               <Link href={".."}>Homepage</Link>
             </li>
             <li>
-              <Link href={"../comingsoon"}>Archieve</Link>
+              <Link href={"../comingsoon"}>Archive</Link>
             </li>
             <li>
-              <Link href={"../comingsoon"}>About</Link>
+              <Link href={"../aboutus"}>About</Link>
             </li>
           </ul>
         </div>
