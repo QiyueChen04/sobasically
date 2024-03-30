@@ -6,8 +6,8 @@ function heading({
     heading:string;
 }) {
   return (
-    <div className='place-self-start text-whilte text-2xl font-bold pt-6'>
-        {heading}
+    <div className='place-self-start text-white text-3xl font-bold pt-6'>
+      {heading}
     </div>
   )
 }
