@@ -7,6 +7,7 @@ import Header from '../../components/articles/header'
 import Par from '../../components/articles/par'
 import Heading from '../../components/articles/heading'      
 import Img from '../../components/articles/image'
+import Signoff from '../../components/articles/signoff'
 
 function pages() {
   return (
@@ -218,8 +219,7 @@ function pages() {
         }/>
 
 
-
-
+        <Signoff></Signoff>
 
       </div>
 
