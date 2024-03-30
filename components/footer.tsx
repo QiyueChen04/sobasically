@@ -17,7 +17,7 @@ function footer() {
         </nav>  */}
         <nav>
           <h6 className="footer-title">SoBasically</h6> 
-          <Link href={"../comingsoon"}>Archive</Link>
+          <Link href={"../archive"}>Archive</Link>
           <Link href={'../aboutus'}>About</Link>
           {/* <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a> */}
